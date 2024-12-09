@@ -2,3 +2,16 @@ body {
     background-color: #222;
     color: #fff;
 }
+
+h1 {
+    height: 10%;
+    font-family: Georgia, serif;
+}
+
+#numbox {
+    background-color: #999;
+    color: #000;
+    height: 20%;
+    font-family: Ariel, sans-serif;
+}
+    
