@@ -11,10 +11,9 @@ h1 {
 #numbox {
     background-color: #999;
     color: #000;
-    height: 40%;
-    width: 90%;
     font-family: Ariel, sans-serif;
     text-align: center;
     padding-bottom: 40%;
+    font-size: 70px;
 }
     
