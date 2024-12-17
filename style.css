@@ -25,9 +25,11 @@ h1 {
 
 .button {
     background-color: #ffffbb;
-    border-color: #ffff66;
+    border: 6px solid #ffff00;
     border-radius: 4px;
     gap: 4%;
+    color: #000000;
+    height: 50px;
 }
 
 #zero {
