@@ -15,6 +15,7 @@ h1 {
     text-align: left;
     padding: 0px, 0px, 5px, 0px;
     font-size: 70px;
+    border-radius: 7.5px;
 }
 
 #numpad {
@@ -27,8 +28,8 @@ h1 {
 .button {
     background-color: #ffffbb;
     border: 6px solid #ffff00;
-    border-radius: 4px;
-    gap: 4%;
+    border-radius: 10px;
+    gap: 10%;
     color: #000000;
     font-size: 50px;
 }
