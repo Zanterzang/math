@@ -9,8 +9,8 @@ h1 {
 }
 
 #numbox {
-    background-color: #999;
-    color: #000;
+    background-color: #550066;
+    color: #fff;
     font-family: Arial, sans-serif;
     text-align: left;
     padding: 0px, 0px, 5px, 0px;
@@ -26,11 +26,11 @@ h1 {
 }
 
 .button {
-    background-color: #ffffbb;
-    border: 6px solid #ffff00;
+    background-color: #7700aa;
+    border: 6px solid #9900ff;
     border-radius: 10px;
     gap: 10px;
-    color: #000000;
+    color: #ffffff;
     font-size: 50px;
 }
 
