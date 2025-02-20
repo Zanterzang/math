@@ -1,44 +1,70 @@
 body {
     background-color: #222;
     color: #fff;
+    font-family: "monospace";
 }
 
 h1 {
-    height: 10%;
+    height: 5vh;
+    width: 100vw;
     font-family: Georgia, serif;
 }
 
-#numbox {
-    background-color: #550066;
+#numbox:empty, #numbox {
+    background-color: #000040;
     color: #fff;
     font-family: Arial, sans-serif;
-    text-align: left;
-    padding: 0px, 0px, 5px, 0px;
-    font-size: 70px;
-    border-radius: 15px;
+    min-height: 40vh;
+    font-size: 5vh;
+    overflow-wrap: break-word;
 }
 
 #numpad {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    height: 500px;
+    grid-template-rows: repeat(6, 1fr);
+    gap: 0.5vh;
+    height: 50vh;
 }
 
 .button {
-    background-color: #7700aa;
-    border: 6px solid #9900ff;
-    border-radius: 10px;
-    gap: 10px;
+    background-color: #550077;
+    border: 0.75vh solid #7700aa;
+    border-radius: 1vh;
     color: #ffffff;
-    font-size: 50px;
+    font-size: 5vh;
+    text-align: center;
+    transition: background-color;
 }
 
-#zero {
-    grid-column: 1/4;
+.nav, .clear {
+    font-size: 5vh;
+    background-color: #AAAAAA;
+    border-radius: 10px;
+    text-align: center;
+    border: 0.75vh solid #555555;
+    transition: background-color;
+}
+
+#gap:empty {
+    height: 0.5vh;
 }
 
 #complex {
     grid-column: 1/4;
+    font-family: sans-serif;
+}
+#cursor {
+    animation-name: coolthing;
+    animation-iteration-count: infinite;
+    animation-duration: 0.9s;
+}
 
-
+@keyframes coolthing {
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
